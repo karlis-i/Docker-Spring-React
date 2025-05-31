@@ -25,4 +25,9 @@ Refs:
 - https://v1.tailwindcss.com/components/cards
 - https://fonts.google.com/specimen/Oswald
 - https://cssloaders.github.io/
+- https://react.dev/learn/build-a-react-app-from-scratch#vite
 - https://www.udemy.com/course/the-ultimate-react-course/learn/lecture/37350406#overview
+- https://docs.docker.com/guides/reactjs/containerize/
+    - https://github.com/kristiyan-velkov/docker-reactjs-sample
+- https://laravel.com/docs/12.x/vite#configuring-hmr-in-sail-on-wsl2
+

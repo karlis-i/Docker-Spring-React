@@ -16,6 +16,23 @@ Original setup
 Schmedtmanns saka, ka Vite nāk ar starter template React projektiem.  
 Tāpēc to arī izmantosim, nevis create-react-app
 
+- 2025-05-31
+
+Original setup (again)
+1. create Tailwind CSS layout with tailwind CDN template
+2. create Vite + React app by following https://react.dev/learn/build-a-react-app-from-scratch#vite  
+    (matches Vite instructions: https://vite.dev/guide/#scaffolding-your-first-vite-project )
+3. setup the project with `npm install`
+4. install and add Tailwind by following https://tailwindcss.com/docs/installation/using-vite
+5. replace default app source files with my own HTML, JSX and CSS
+6. build, run test
+7. great success!
+8. Today asked Le Chat for help. Shitty help, much arguing and correcting the bot
+9. Added Dockerfile and compose.yaml supplied by Le Chat
+10. Made changes to package.json and vite.config.js according to Laravel (https://laravel.com/docs/12.x/vite#configuring-hmr-in-sail-on-wsl2) and VeA Web PD2
+11. Build and run Docker Compose
+12. Great success!
+
 
 Data: 
 The Long Dark
