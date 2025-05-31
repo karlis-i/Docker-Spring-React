@@ -37,7 +37,17 @@ Original setup (again)
 https://www.innokrea.com/dockerizing-the-frontend-do-it-right-with-react-js-vite/ ?
 https://www.docker.com/blog/how-to-dockerize-react-app/ - old, uses create-react-app
 
+
+
 https://docs.docker.com/reference/samples/react/ - DOCKER SAMPLES
+https://docs.docker.com/reference/samples/java/ - ffs, te viss vajadzīgais
+
+https://docs.docker.com/guides/reactjs/containerize/ - te var paskatīties, ko uzlabot frontendā
+
+spring doķi-
+- https://spring.io/guides/gs/spring-boot-docker
+- https://spring.io/guides/gs/serving-web-content
+- https://spring.io/guides/gs/spring-boot
 
 
 Data: 
