@@ -1,0 +1,92 @@
+<html>
+
+    <head>
+        <meta charset="UTF-8" />
+        <title>&#x1FA93; Docker - Spring - PostgreSQL - React</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+
+            html {
+                font-family: "Oswald", sans-serif;
+                font-size: 14pt;
+                line-height: 1.5;
+            }
+
+            .loader {
+                width: 48px;
+                height: 48px;
+                border: 5px solid oklch(97.7% 0.013 236.62);
+                border-bottom-color: transparent;
+                border-radius: 50%;
+                display: inline-block;
+                box-sizing: border-box;
+                animation: rotation 1s linear infinite;
+            }
+
+            @keyframes rotation {
+                0% {
+                    transform: rotate(0deg);
+                }
+
+                100% {
+                    transform: rotate(360deg);
+                }
+            }
+        </style>
+    </head>
+
+    <body class="bg-sky-950">
+        <div class="w-full md:w-lg my-8 mx-auto text-center">
+            <span class="loader"></span>
+        </div>
+
+        <article class="w-full md:w-lg my-8 mx-auto rounded-2xl overflow-hidden shadow-lg bg-sky-900 pb-4">
+            <header
+                class="w-full aspect-16/9 bg-[url(https://www.thelongdark.com/img/about-back-desktop-comp.jpg)] bg-cover flex items-center">
+                <img class="w-3/5 mx-auto" src="https://www.thelongdark.com/img/logo-tld-header.svg"
+                    alt="The Long Dark">
+            </header>
+            <section class="px-6 py-4 text-slate-50">
+                <h1 class="text-3xl leading-8 font-light mb-4 pb-4 border-0 border-b-1 border-slate-400">The Long Dark
+                </h1>
+                <p class="mb-4">WELCOME TO THE QUIET APOCALYPSE™</p>
+                <p class="mb-4">Bright lights flare across the night sky. The wind rages outside the thin walls of your
+                    wooden cabin. A wolf howls in the distance. You look at the meagre supplies in your pack, and wish
+                    for the days before the power mysteriously went out. How much longer will you survive?</p>
+                <p class="mb-4">The Long Dark is a thoughtful, exploration-survival experience that challenges solo
+                    players to think for themselves as they explore an expansive frozen wilderness in the aftermath of a
+                    geomagnetic disaster. There are no zombies — only you, the cold, and all the threats Mother Nature
+                    can muster.</p>
+            </section>
+            <footer class="px-6 py-4 text-slate-400">
+                <dl class="md:flex md:flex-wrap md:flex-row">
+                    <dt class="font-bold md:basis-1/4">Studios:</dt>
+                    <dd class="md:basis-3/4">Hinterland Studio Inc.</dd>
+
+                    <dt class="font-bold md:basis-1/4">Year:</dt>
+                    <dd class="md:basis-3/4">2017</dd>
+
+                    <dt class="font-bold md:basis-1/4">Website:</dt>
+                    <dd class="md:basis-3/4"><a href="https://www.thelongdark.com/" target="_blank"
+                            class="text-sky-50">https://www.thelongdark.com/</a></dd>
+                </dl>
+            </footer>
+
+            <!-- bg: sky-950
+            panel-bg: sky-900
+            borders, muted: slate-400
+            txt: slate-50
+            links: sky-50 -->
+        </article>
+
+    </body>
+
+</html>
