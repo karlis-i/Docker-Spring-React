@@ -34,6 +34,12 @@ Original setup (again)
 12. Great success!
 
 
+https://www.innokrea.com/dockerizing-the-frontend-do-it-right-with-react-js-vite/ ?
+https://www.docker.com/blog/how-to-dockerize-react-app/ - old, uses create-react-app
+
+https://docs.docker.com/reference/samples/react/ - DOCKER SAMPLES
+
+
 Data: 
 The Long Dark
 Hinterland Studio Inc.
